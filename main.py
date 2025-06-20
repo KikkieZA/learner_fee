@@ -15,9 +15,9 @@ def addNewLearner(Name, Surname, Amount):
   global id_counter 
   
   # use the counter as the ID of the student
-  # create the tuple to store the students
+  # create the list to store the students
   new_learner = [id_counter, Name, Surname, Amount]
-  # add the tuple to the list
+  # add the new learner to our list
   learner_list.append(new_learner)
   
   # we increase the coutner by 1 after student has been added
