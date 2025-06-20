@@ -64,7 +64,6 @@ addFelony("Cellphone", 50)
 
 # the following functions will add or remove to what the learner owes
 def addFelonyAmountToLearner(Felony, ID):
-  # create temporary variable to store amount owed
   for learner in learner_list:
     if learner[0] == ID:
       # learner[3] is the amount location in the array/list of the learner
