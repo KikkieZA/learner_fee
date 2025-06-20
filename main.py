@@ -4,6 +4,7 @@ id_counter = 1;
 
 #create empty list of students
 learner_list = []
+# this is a dictionary its faster than a list/array
 felony_list = {}
 
 # create our functions that will add or remove students
